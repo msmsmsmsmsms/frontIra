@@ -183,6 +183,12 @@ li {
     height: 262px;
 }
 
+#product_img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 #data {
     padding: 50px 44px;
 }
