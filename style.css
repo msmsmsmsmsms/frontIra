@@ -148,7 +148,7 @@ li {
     margin-bottom: 50px;
 }
 
-#logo_menu>img {
+#logo_menu>a>img {
     width: 150px;
 }
 
@@ -217,4 +217,35 @@ li {
     padding: 20px 38px;
     background: #E6BE7E;
     border-radius: 8px;
+}
+
+.sign_cont {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+    width: 825px;
+    height: 636px;
+}
+
+#form_cont {
+    display: flex;
+    flex-direction: row ;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 336px;
+    height: 51px;
+    outline: none;
+    border: none;
+    background: #EEEEEE;
+    border-radius: 8px;
+    padding: 20px;
 }
