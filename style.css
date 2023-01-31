@@ -300,3 +300,10 @@ h1 {
     cursor: pointer;
     margin-top: 55px;
 }
+
+#form_cont_sign_in {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
