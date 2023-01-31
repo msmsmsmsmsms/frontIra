@@ -396,7 +396,7 @@ h1 {
 
 #amnt {
     font-size: 36px;
-    font-weight: medium;
+    font-weight:medium;
 }
 
 #total_cont {
@@ -409,4 +409,43 @@ h1 {
     font-weight: medium;
     border-radius: 10px;
     border: 1px solid #7e868e5b;
+}
+
+#purchase_cont {
+    margin-top: 120px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1273px;
+    border: 1px solid #7e868e5b;
+    border-radius: 10px;
+}
+
+#check_info {
+    padding: 44px;
+    font-size: 24px;
+    font-weight:bold;
+}
+
+#check_total_price {
+    padding: 37px 95px;
+    font-size: 32px;
+    font-weight: medium;
+}
+
+#submit_purchase_btn {
+    margin: 0;
+    padding: 0;
+    background: #e6be7e;
+    color:white;
+    height: 118px;
+    font-size: 24px;
 }
