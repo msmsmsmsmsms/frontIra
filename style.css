@@ -448,4 +448,42 @@ h1 {
     color:white;
     height: 118px;
     font-size: 24px;
+    cursor: pointer;
+}
+
+#address_form > form {
+    height: 100%;
+    padding-top: 50px;
+    padding-left: 140px;
+    padding-right: 140px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#address_form > form > label > #short {
+    width: 169px;
+}
+
+#address_form > form > label > #long {
+    width: 337px;
+}
+
+#address_submit {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 140px;
+}
+
+#address_submit > input {
+    margin: 0;
+    padding: 0;
+    background: #e6be7e;
+    color:white;
+    height: 51px;
+    font-size: 16px;
+    cursor: pointer;
 }
